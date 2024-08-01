@@ -95,6 +95,17 @@ body {
   border: 0.2vw solid white;
   box-shadow: 1vw 0.1vw 1.5vw 0.2vw rgba(255, 255, 255, 0.9);
 }
+.img-logo-production-show {
+  position: relative;
+  margin-left: 65%;
+  margin-top: -10%;
+  width: 30%;
+  max-width: 15vw;
+  height: auto;
+  padding: 7px;
+  border: 0.2vw solid white;
+  box-shadow: 1vw 0.1vw 1.5vw 0.2vw rgba(255, 255, 255, 0.9);
+}
 
 .img-background-production {
   border: 0.1vw solid white;
@@ -111,7 +122,16 @@ body {
   margin: 1.5vw;
   border: 0.2vw solid rgb(255, 255, 255);
 }
-
+.card-production-show {
+  background-color: rgba(5, 33, 92, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  backdrop-filter: blur(0.1vw);
+  font-size: 1.5vw;
+  border-radius: 2vw;
+  margin: 1.5vw;
+  border: 0.2vw solid rgb(255, 255, 255);
+}
 .card-user {
   background-image: linear-gradient(to right, #092e35, #010825);
   color: rgb(199, 232, 241);

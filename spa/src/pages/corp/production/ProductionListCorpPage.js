@@ -99,18 +99,16 @@ const ProductionListCorpPage = () => {
                             backgroundImage: `url('${storageUrl}/${production.background}')`,
                           }}
                         />
-                        <Link
-                          to={`/production/view/${production.slug}`}
-                          style={{
-                            textDecoration: "none",
-                            color: "white",
-                            textTransform: "uppercase",
-                          }}
-                        >
-                          <Card.Title className="text-center bg-black  rounded-5 p-4">
-                            {production.name}
-                          </Card.Title>
-                        </Link>
+                       <Link
+        to={`/production/${production.slug}`}
+        style={{ textDecoration: "none" }}
+      > <img
+      src={`${storageUrl}/${production.logo}`}
+      className="rounded-circle img-logo-production"
+      style={{ margin: '0 auto', display: 'block' }}
+    />
+    
+                    </Link>
 
                         <Row>
                           <Col md={2}>

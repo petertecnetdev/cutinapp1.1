@@ -23,7 +23,6 @@ const ProductionCreatePage = () => {
     fantasy: "",
     type: "",
     phone: "",
-    establishment_type: "",
     description: "",
     segments: [],
     city: "",
@@ -289,42 +288,7 @@ const ProductionCreatePage = () => {
                   className="mt-3"
                 />
               </Form.Group>
-              <Form.Group controlId="formEstablishmentType">
-                <Form.Control
-                  as="select"
-                  name="establishment_type"
-                  value={formData.establishment_type}
-                  onChange={handleInputChange}
-                  required
-                  className="mt-3"
-                >
-                  <option value="">Estabelecimento</option>
-                  <option value="Boate">Boate</option>
-                  <option value="Restaurante">Restaurante</option>
-                  <option value="Bar">Bar</option>
-                  <option value="Clube">Clube</option>
-                  <option value="Café">Café</option>
-                  <option value="Pub">Pub</option>
-                  <option value="Lounge">Lounge</option>
-                  <option value="Hotel">Hotel</option>
-                  <option value="Teatro">Teatro</option>
-                  <option value="Cinema">Cinema</option>
-                  <option value="Sala de Concertos">Sala de Concertos</option>
-                  <option value="Boate">Boate</option>
-                  <option value="Academia">Academia</option>
-                  <option value="Spa">Spa</option>
-                  <option value="Padaria">Padaria</option>
-                  <option value="Museu">Museu</option>
-                  <option value="Galeria de Arte">Galeria de Arte</option>
-                  <option value="Parque">Parque</option>
-                  <option value="Praia">Praia</option>
-                  <option value="Piscina">Piscina</option>
-                  <option value="Cassino">Cassino</option>
-                  <option value="Boliche">Boliche</option>
-                  <option value="Sinuca">Sinuca</option>
-                  <option value="Karaoke">Karaoke</option>
-                </Form.Control>
-              </Form.Group>
+            
               <Form.Group controlId="formcnpj">
                 <Form.Control
                   type="text"

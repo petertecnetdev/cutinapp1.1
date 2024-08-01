@@ -34,7 +34,7 @@ const ProductionPage = () => {
     <Col key={production.id} md={4} className="p-4">
    
       
-   <Card className="card-production" >
+   <Card className="card-production-show" >
                       <div
     className="background-image"
     style={{
@@ -46,7 +46,7 @@ const ProductionPage = () => {
         style={{ textDecoration: "none" }}
       > <img
       src={`${storageUrl}/${production.logo}`}
-      className="rounded-circle img-logo-production"
+      className="rounded-circle img-logo-production-show"
       style={{ margin: '0 auto', display: 'block' }}
     />
     
