@@ -1295,3 +1295,119 @@
 [2024-07-30 23:17:07] local.INFO: Usuário atualizado com sucesso: 1  
 [2024-07-31 00:37:37] local.ERROR: Usuário não autenticado.  
 [2024-07-31 00:37:38] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:31:58] local.ERROR: Usuário não tem permissão para deletar este usuário.  
+[2024-08-02 01:34:36] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:35:20] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:35:28] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:37:10] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:37:38] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:42:15] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:42:33] local.ERROR: Usuário não autenticado.  
+[2024-08-02 01:45:26] local.ERROR: Usuário não tem permissão para deletar este usuário.  
+[2024-08-02 01:46:25] local.INFO: Usuário deletado com sucesso: 1  
+[2024-08-02 01:47:06] local.INFO: Usuário atualizado com sucesso: 3  
+[2024-08-02 01:47:12] local.INFO: Usuário atualizado com sucesso: 3  
+[2024-08-02 01:54:09] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:00:54] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:01:01] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:04:34] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:05:49] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:08:52] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:09:00] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:15:08] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:15:13] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:15:16] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:19:18] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:19:22] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:19:24] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 02:27:16] local.ERROR: Usuário não autenticado.  
+[2024-08-02 02:27:18] local.ERROR: Usuário não autenticado.  
+[2024-08-02 02:27:21] local.ERROR: Usuário não autenticado.  
+[2024-08-02 02:27:59] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 02:27:59] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 02:27:59] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 02:28:00] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
