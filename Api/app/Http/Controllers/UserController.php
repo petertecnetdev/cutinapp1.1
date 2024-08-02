@@ -360,6 +360,39 @@ class UserController extends Controller
         }
     }
 
+    public function destroy($userId)
+    {
+        try {
+            $currentUser = Auth::user();
+            
+            if (!$currentUser) {
+                Log::error('Usuário não autenticado.');
+                return response()->json(['error' => 'Usuário não autenticado.'], 401);
+            }
+
+            if (!$currentUser->hasPermission('user_delete')) {
+                Log::error('Usuário não tem permissão para deletar este usuário.');
+                return response()->json(['error' => 'Você não tem permissão para deletar este usuário.'], 403);
+            }
+
+            if ($currentUser->id == $userId) {
+                Log::error('Tentativa de auto-deleção detectada.');
+                return response()->json(['error' => 'Você não pode se auto-deletar.'], 403);
+            }
+
+            $userToDelete = User::findOrFail($userId);
+            $userToDelete->delete();
+
+            Log::info('Usuário deletado com sucesso: ' . $userId);
+            return response()->json(['message' => 'Usuário deletado com sucesso.'], 200);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao deletar o usuário: ' . $e->getMessage());
+            return response()->json(['error' => 'Ocorreu um erro ao deletar o usuário.'], 500);
+        }
+    }
+
+    
 
 }
 

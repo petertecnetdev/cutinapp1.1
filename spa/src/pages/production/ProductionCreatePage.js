@@ -10,7 +10,6 @@ import {
 } from "react-bootstrap";
 import productionService from "../../services/ProductionService";
 import NavlogComponent from "../../components/NavlogComponent";
-import cepUtil from "../../utils/cep";
 import { Link } from "react-router-dom";
 import LoadingComponent from "../../components/LoadingComponent";
 import seguiments from "../../utils/seguiments";
@@ -128,24 +127,7 @@ const ProductionCreatePage = () => {
     }
   };
 
-  const handleCepChange = async (e) => {
-    const cep = e.target.value;
-    setFormData({ ...formData, cep: cep });
-    try {
-      const addressInfo = await cepUtil.getAddressInfo(cep);
-      if (addressInfo) {
-        setFormData({
-          ...formData,
-          uf: addressInfo.uf,
-          city: addressInfo.cidade,
-          cep: addressInfo.cep,
-          address: `${addressInfo.logradouro} - ${addressInfo.bairro}`,
-        });
-      }
-    } catch (error) {
-      console.error("Erro ao buscar informações do CEP:", error);
-    }
-  };
+
 
   const handleCnpjChange = async (e) => {
     const cnpj = e.target.value;
@@ -205,6 +187,8 @@ const ProductionCreatePage = () => {
   return (
     <>
       <NavlogComponent />
+      
+      <p className="labeltitle h2 text-center text-uppercase">Adicionar nova produção</p>
       <label
         htmlFor="BackgroundInput"
         style={{ cursor: "pointer", display: "block" }}
@@ -223,6 +207,7 @@ const ProductionCreatePage = () => {
           />
         )}
       </label>
+      
       <Form.Control
         id="BackgroundInput"
         type="file"
@@ -274,9 +259,11 @@ const ProductionCreatePage = () => {
       <Container>
         <Row className="justify-content-md-center">
           
-        <p className="labeltitle h2 text-center text-uppercase">Adicionar nova produção</p>
-          <Col md={4}>
+          <Col md={12}>
             <Card>
+            <p className="labeltitle h4 text-center text-uppercase">Informações básicas</p>
+              <Row>
+            <Col md={6} className="mt-2">
               <Form.Group controlId="formName">
                 <Form.Control
                   type="text"
@@ -287,8 +274,11 @@ const ProductionCreatePage = () => {
                   required
                   className="mt-3"
                 />
-              </Form.Group>
-            
+              </Form.Group>            
+              </Col>
+
+              
+            <Col md={3} className="mt-2">
               <Form.Group controlId="formcnpj">
                 <Form.Control
                   type="text"
@@ -300,7 +290,11 @@ const ProductionCreatePage = () => {
                   className="mt-3"
                 />
               </Form.Group>
+              </Col>
 
+              
+              
+            <Col md={3} className="mt-2">
               <Form.Group controlId="formPhone">
                 <Form.Control
                   type="text"
@@ -312,21 +306,8 @@ const ProductionCreatePage = () => {
                   className="mt-3"
                 />
               </Form.Group>
-              <Form.Group controlId="formLocation">
-                <Form.Control
-                  type="text"
-                  name="location"
-                  placeholder="URL Google Maps"
-                  value={formData.location}
-                  onChange={handleInputChange}
-                  required
-                  className="mt-3"
-                />
-              </Form.Group>
-            </Card>
-          </Col>
-          <Col md={8}>
-            <Card>
+              </Col>
+              </Row>
               <Row>
                 <Col md={12} className="mt-2">
                   <Form.Group controlId="formDescription">
@@ -337,89 +318,6 @@ const ProductionCreatePage = () => {
                       placeholder="Digite a descrição da produção"
                       value={formData.description}
                       onChange={handleInputChange}
-                      required
-                    />
-                  </Form.Group>
-                </Col>
-                <Col md={4}>
-                  <Form.Group controlId="formCEP">
-                    <Form.Control
-                      type="text"
-                      name="cep"
-                      placeholder="Digite o CEP"
-                      value={formData.cep}
-                      onChange={handleCepChange}
-                      required
-                      className="mt-3"
-                    />
-                  </Form.Group>
-                </Col>
-                <Col md={2}>
-                  <Form.Group controlId="formUf">
-                    <Form.Control
-                      as="select"
-                      name="uf"
-                      value={formData.uf}
-                      onChange={handleInputChange}
-                      required
-                      className="mt-3"
-                      disabled
-                    >
-                      <option value="">UF</option>
-                      <option value="AC">AC</option>
-                      <option value="AL">AL</option>
-                      <option value="AP">AP</option>
-                      <option value="AM">AM</option>
-                      <option value="BA">BA</option>
-                      <option value="CE">CE</option>
-                      <option value="DF">DF</option>
-                      <option value="ES">ES</option>
-                      <option value="GO">GO</option>
-                      <option value="MA">MA</option>
-                      <option value="MT">MT</option>
-                      <option value="MS">MS</option>
-                      <option value="MG">MG</option>
-                      <option value="PA">PA</option>
-                      <option value="PB">PB</option>
-                      <option value="PR">PR</option>
-                      <option value="PE">PE</option>
-                      <option value="PI">PI</option>
-                      <option value="RJ">RJ</option>
-                      <option value="RN">RN</option>
-                      <option value="RS">RS</option>
-                      <option value="RO">RO</option>
-                      <option value="RR">RR</option>
-                      <option value="SC">SC</option>
-                      <option value="SP">SP</option>
-                      <option value="SE">SE</option>
-                      <option value="TO">TO</option>
-                    </Form.Control>
-                  </Form.Group>
-                </Col>
-
-                <Col md={6}>
-                  <Form.Group controlId="formCity">
-                    <Form.Control
-                      type="text"
-                      name="city"
-                      placeholder="Digite a cidade"
-                      value={formData.city}
-                      onChange={handleInputChange}
-                      required
-                      className="mt-3"
-                      disabled
-                    />
-                  </Form.Group>
-                </Col>
-                <Col md={12}>
-                  <Form.Group controlId="formAddress">
-                    <Form.Control
-                      type="text"
-                      name="address"
-                      placeholder="Digite o endereço"
-                      value={formData.address}
-                      onChange={handleInputChange}
-                      className="mt-3"
                       required
                     />
                   </Form.Group>
@@ -469,7 +367,7 @@ const ProductionCreatePage = () => {
           <Row className="justify-content-md-center">
             <Col md={12}>
               <Card>
-                <Card.Title>Seguimentos</Card.Title>
+              <p className="labeltitle h4 text-center text-uppercase">Seguimentos</p>
                 <Row>
                   {/* Renderiza as 6 colunas */}
                   {segmentChunks.map((chunk, index) => (

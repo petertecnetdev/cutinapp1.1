@@ -14,10 +14,17 @@ const UserListPage = () => {
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
   const [showErrorAlert, setShowErrorAlert] = useState(false);
   const [modalErrorMessage, setModalErrorMessage] = useState("");
+<<<<<<< HEAD
+
+  // Simulação do ID do usuário autenticado. Substitua isso pelo ID real do usuário autenticado
+  const authenticatedUserId = 1; // Substitua pelo ID real do usuário autenticado
+=======
+>>>>>>> 7c2d6b6191314f53d1772e21b8f5ad79e10e808c
 
   // Simulação do ID do usuário autenticado. Substitua isso pelo ID real do usuário autenticado
   const authenticatedUserId = 1; // Substitua pelo ID real do usuário autenticado
 
+  
   const fetchUsers = async () => {
     setLoading(true);
     setError(null);
