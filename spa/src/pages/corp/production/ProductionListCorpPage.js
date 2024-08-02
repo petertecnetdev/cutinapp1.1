@@ -91,20 +91,14 @@ const ProductionListCorpPage = () => {
                 </Link>
                 <Row>
                   {productions.map((production) => (
-                    <Col key={production.id} md={12}>
-                      <Card className="card-production">
-                        <div
-                          className="background-image"
-                          style={{
-                            backgroundImage: `url('${storageUrl}/${production.background}')`,
-                          }}
-                        />
+                    <Col key={production.id} md={6}>
+                      <Card className="card-production-show">
                        <Link
         to={`/production/${production.slug}`}
         style={{ textDecoration: "none" }}
       > <img
       src={`${storageUrl}/${production.logo}`}
-      className="rounded-circle img-logo-production"
+      className="rounded-circle img-logo-production-show"
       style={{ margin: '0 auto', display: 'block' }}
     />
     
@@ -116,16 +110,13 @@ const ProductionListCorpPage = () => {
                               to={`/production/${production.slug}`}
                               style={{ textDecoration: "none" }}
                             >
-                              <Card.Img
-                                variant="top"
-                                src={`${storageUrl}/${production.logo}`}
-                                className="img-fluid rounded-circle img-logo-production m-2"
-                                style={{ width: "100px", height: "100px" }}
-                              />
                             </Link>
                           </Col>
-                          <Col md={4}>
-                            <Card.Body>
+                          <Col md={12}>
+                          <Card.Title className="text-uppercase text-center labeltitle">
+                          {production.name}
+                        </Card.Title>
+                            <Card.Body className="text-center">
                               <Button variant="info" size="sm" className="m-1">
                                 <Link
                                   to={`/production/update/${production.id}`}
@@ -147,21 +138,17 @@ const ProductionListCorpPage = () => {
                               >
                                 <i className="bi bi-trash  m-2 "></i>
                               </Button>
-                            </Card.Body>
-                          </Col>
-                          <Col md={4}>
-                            <Card.Body>
                               <Button
                                 variant="primary"
-                                size="md"
+                                size="sm"
+                                className="m-1"
                                 onClick={() =>
                                   navigate(
                                     `/event/create?productionId=${production.id}`
                                   )
                                 }
                               >
-                                <i className="bi bi-plus-square m-2 "></i>
-                                Novo evento
+                                <i className="bi bi-plus m-2 "></i>
                               </Button>
                             </Card.Body>
                           </Col>
