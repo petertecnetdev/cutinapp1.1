@@ -50,6 +50,13 @@ const ProductionViewPage = () => {
           className="img-fluid img-background-production"
         />
       )}
+        <Row>
+          
+          <Col md={4} className="mx-auto">
+            <p className="labeltitle h4 text-center text-uppercase">
+              {data.production.name}
+            </p>
+            </Col></Row>
       {data.production.logo && (
         <img
           src={`${storageUrl}/${data.production.logo}`}
@@ -58,142 +65,155 @@ const ProductionViewPage = () => {
         />
       )}
       <Container>
-        <Row>
+   
+
           
-        <Col md={8} className="mx-auto">
-          <p className="labeltitle h4 text-center text-uppercase">
-            {data.production.name}
-          </p>
-          </Col></Row>
-          <Row>
-          <Col md={4}>
-            <Card>
-              <Card.Text className="text-center text-uppercase">
-                {data.production.establishment_type} |
-                <strong>
-                  {data.views} <i className="fa fa-eye" aria-hidden="true"></i>
-                </strong>
-                |
-                <strong>
-                  {data.production.city} {data.production.uf}
-                </strong>
-              </Card.Text>
-              <Card.Text className="text-center">
-                <a
-                  href={data.production.location}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ cursor: "pointer" }}
-                >
-                  <i className="bi bi-geo-alt btn btn-outline-light"></i>
-                </a>
-                <a
-                  href={data.production.instagram_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ cursor: "pointer" }}
-                >
-                  <i className="bi bi-instagram m-2 btn btn-outline-light"></i>
-                </a>
-              </Card.Text>
-
-              <Card.Text>
-                <i className="bi bi-map m-2"></i>
-                {data.production.address}
-              </Card.Text>
-              <Card.Text>{data.production.youtube_url}</Card.Text>
-            </Card>
-          </Col>
-          <Col md={8}>
-            <Card>
-              <div className="d-flex flex-wrap justify-content-center">
-                {data.production.segments.slice(0, 3).map((segment, index) => (
-                  <p
-                    key={index}
-                    className="seguiments text-center text-uppercase "
-                  >
-                    {segment}
-                  </p>
-                ))}
-                {data.production.segments.length > 3 && (
-                  <Button
-                    variant="link"
-                    onClick={() => toggleSegments(data.production.id)}
-                    style={{ textDecoration: "none" }} // Removendo o sublinhado
-                  >
-                    <p className="seguiments text-center"> +</p>
-                  </Button>
-                )}
-              </div>
-              {/* Modal para mostrar todos os seguimentos */}
-              <Modal
-                show={showAllSegments[data.production.id]}
-                onHide={() => toggleSegments(data.production.id)}
-              >
-                <Modal.Header closeButton>
-                  <Modal.Title>
-                    Seguimentos de {data.production.name}{" "}
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  {data.production.segments.map((segment, index) => (
-                    <p key={index} className="seguiments text-center">
-                      {segment}
-                    </p>
-                  ))}
-                </Modal.Body>
-              </Modal>
-              <Card.Text className="text-center">
-                {data.production.description}
-              </Card.Text>
-              <p className="text-info">Fudador(a):</p>
-              <Link
-                to={`/user/${data.production.user.user_name}`}
-                style={{ textDecoration: "none" }}
-              >
-                <div className="rounded-circle m-2">
-                  {data.production.user.avatar && (
-                    <img
-                      src={`${storageUrl}/${data.production.user.avatar}`}
-                      alt={`${data.production.user.first_name} Produtor da produção ${data.production.name} da Logo`}
-                      className="rounded-circle"
-                      style={{ width: "50px", height: "50px" }}
-                    />
-                  )}
-                </div>
-
-                <Card.Text>
-                  <i className="bi bi-file-earmark-person  m-2 "></i>
-                  {data.production.user.first_name}
-                </Card.Text>
-              </Link>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-  <p className="labeltitle h4 text-center text-uppercase">Agenda</p>
-  {data.productionEvents.length > 0 && (
-    data.productionEvents.map((event) => (
-      <Col key={event.id} md={3} className="m-1">
+      <Row className="mb-4">
+  <Col md={12} className="text-center">
+    <p className="labeltitle h4 text-center text-uppercase">Agenda</p>
+    <Row>
+    {data.productionEvents.length > 0 ? (
+      data.productionEvents.map((event) => (
+        <Col key={event.id} md={4} className="mb-4">
           <Link
-                      to={`/event/${event.slug}`}
-                      style={{ textDecoration: "none" }}
-                    >
-                  
-                         <img
-            key={event.id}
-            src={`${storageUrl}/${event.image}`}
-            alt="Preview da Logo"
-            className="img-fluid"
-           />
-          <p className="labeltitle h6 text-center text-uppercase">{event.title}</p>  
-          
+            to={`/event/${event.slug}`}
+            style={{ textDecoration: "none" }}
+          >
+            <div className="d-flex flex-column align-items-center">
+              <img
+                src={`${storageUrl}/${event.image}`}
+                alt={event.title}
+                className="img-fluid mb-2"
+                style={{ width: "100%", height: "auto" }}
+              />
+              <p className="labeltitle h6 text-center text-uppercase">{event.title}</p>
+            </div>
           </Link>
+        </Col>
+      ))
+    ) : (
+      <Col md={12} className="text-center mt-4">
+        <p className="text-danger">
+          A produção não tem agenda nos próximos dias.
+        </p>
       </Col>
-    ))
-  )}
+    )}
+    </Row>
+  </Col>
 </Row>
 
+
+          <Row>
+          <Col md={12}>
+  <Card>
+    <Card.Body>
+      {/* Informações principais */}
+      <Card.Text className="text-center text-uppercase mb-4">
+        <strong>{data.production.establishment_type}</strong> | 
+        <strong>{data.views} <i className="fa fa-eye" aria-hidden="true"></i></strong> | 
+        <strong>{data.production.city} {data.production.uf}</strong>
+      </Card.Text>
+
+      {/* Localização e redes sociais */}
+      <div className="text-center mb-4">
+        <a
+          href={data.production.location}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-light mx-2"
+        >
+          <i className="bi bi-geo-alt"></i>
+        </a>
+        <a
+          href={data.production.instagram_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-light mx-2"
+        >
+          <i className="bi bi-instagram"></i>
+        </a>
+      </div>
+
+      {/* Endereço e YouTube */}
+      <Card.Text className="text-center mb-4">
+        <i className="bi bi-map m-2"></i>{data.production.address}
+      </Card.Text>
+      <Card.Text className="text-center mb-4">
+        <i className="bi bi-youtube m-2"></i>{data.production.youtube_url}
+      </Card.Text>
+
+      {/* Segments */}
+      <div className="d-flex flex-wrap justify-content-center mb-4">
+        {data.production.segments.slice(0, 3).map((segment, index) => (
+          <p
+            key={index}
+            className="seguiments text-center text-uppercase m-2"
+          >
+            {segment}
+          </p>
+        ))}
+        {data.production.segments.length > 3 && (
+          <Button
+            variant="link"
+            onClick={() => toggleSegments(data.production.id)}
+            style={{ textDecoration: "none" }}
+          >
+            <p className="seguiments text-center"> +</p>
+          </Button>
+        )}
+      </div>
+
+      {/* Modal para mostrar todos os seguimentos */}
+      <Modal
+        show={showAllSegments[data.production.id]}
+        onHide={() => toggleSegments(data.production.id)}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>
+            Seguimentos de {data.production.name}
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {data.production.segments.map((segment, index) => (
+            <p key={index} className="seguiments text-center">
+              {segment}
+            </p>
+          ))}
+        </Modal.Body>
+      </Modal>
+
+      {/* Descrição e fundador */}
+      <Card.Text className="text-center mb-4">
+        {data.production.description}
+      </Card.Text>
+      <div className="text-center">
+        <p className="text-info mb-2">Fundador(a):</p>
+        <Link
+          to={`/user/${data.production.user.user_name}`}
+          style={{ textDecoration: "none" }}
+        >
+          <div className="rounded-circle mb-2">
+            {data.production.user.avatar && (
+              <img
+                src={`${storageUrl}/${data.production.user.avatar}`}
+                alt={`${data.production.user.first_name} Produtor da produção ${data.production.name}`}
+                className="rounded-circle"
+                style={{ width: "50px", height: "50px" }}
+              />
+            )}
+          </div>
+          <Card.Text>
+            <i className="bi bi-file-earmark-person m-2"></i>
+            {data.production.user.first_name}
+          </Card.Text>
+        </Link>
+      </div>
+    </Card.Body>
+  </Card>
+</Col>
+
+        </Row>
+      
 
         <Row>
           <p className="labeltitle h1 text-center text-uppercase">

@@ -10,7 +10,6 @@ import {
 } from "react-bootstrap";
 import productionService from "../../services/ProductionService";
 import NavlogComponent from "../../components/NavlogComponent";
-import cepService from "../../utils/cep";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { storageUrl } from "../../config";
 import LoadingComponent from "../../components/LoadingComponent";
@@ -123,25 +122,6 @@ const ProductionUpdatePage = () => {
     }
   };
 
-  const handleCepChange = async (e) => {
-    const cep = e.target.value;
-    setFormData({ ...formData, cep });
-    if (cep.length === 8) {
-      try {
-        const addressInfo = await cepService.getAddressInfo(cep);
-        if (addressInfo) {
-          setFormData({
-            ...formData,
-            uf: addressInfo.uf,
-            city: addressInfo.cidade,
-            address: `${addressInfo.logradouro} - ${addressInfo.bairro}`,
-          });
-        }
-      } catch (error) {
-        console.error("Erro ao buscar informações do CEP:", error);
-      }
-    }
-  };
 
   useEffect(() => {
     let timer;
@@ -182,7 +162,10 @@ const ProductionUpdatePage = () => {
 
   return (
     <>
-      <NavlogComponent />  <label
+      <NavlogComponent /> 
+      
+      <p className="labeltitle h2 text-center text-uppercase">Editar produção</p>
+       <label
         htmlFor="BackgroundInput"
         style={{ cursor: "pointer", display: "block" }}
       >
@@ -243,83 +226,9 @@ const ProductionUpdatePage = () => {
 
       <Container>
           <Row>
-            <Col md={4}>
+            <Col md={12}>
               <Card>
-             
-
-                <Form.Group controlId="formName">
-                  <Form.Control
-                    type="text"
-                    name="name"
-                    placeholder="Digite o nome da produção"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    required
-                    className="mt-3"
-                  />
-                </Form.Group>
-                <Form.Group controlId="formEstablishmentType">
-                  <Form.Control
-                    as="select"
-                    name="establishment_type"
-                    value={formData.establishment_type}
-                    onChange={handleInputChange}
-                    required
-                    className="mt-3"
-                  >
-                    <option value="">Estabelecimento</option>
-                    <option value="Restaurante">Restaurante</option>
-                    <option value="Bar">Bar</option>
-                    <option value="Clube">Clube</option>
-                    <option value="Café">Café</option>
-                    <option value="Pub">Pub</option>
-                    <option value="Lounge">Lounge</option>
-                    <option value="Hotel">Hotel</option>
-                    <option value="Teatro">Teatro</option>
-                    <option value="Cinema">Cinema</option>
-                    <option value="Sala de Concertos">Sala de Concertos</option>
-                    <option value="Boate">Boate</option>
-                    <option value="Academia">Academia</option>
-                    <option value="Spa">Spa</option>
-                    <option value="Padaria">Padaria</option>
-                    <option value="Museu">Museu</option>
-                    <option value="Galeria de Arte">Galeria de Arte</option>
-                    <option value="Parque">Parque</option>
-                    <option value="Praia">Praia</option>
-                    <option value="Piscina">Piscina</option>
-                    <option value="Cassino">Cassino</option>
-                    <option value="Boliche">Boliche</option>
-                    <option value="Sinuca">Sinuca</option>
-                    <option value="Karaoke">Karaoke</option>
-                  </Form.Control>
-                </Form.Group>
-                <Form.Group controlId="formPhone">
-                  <Form.Control
-                    type="text"
-                    name="phone"
-                    placeholder="Telefone"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    required
-                    className="mt-3"
-                  />
-                </Form.Group>
-
-                <Form.Group controlId="formLocation">
-                  <Form.Control
-                    type="text"
-                    name="location"
-                    placeholder="URL Google Maps"
-                    value={formData.location}
-                    onChange={handleInputChange}
-                    required
-                    className="mt-3"
-                  />
-                </Form.Group>
-              </Card>
-            </Col>
-            <Col md={8}>
-              <Card>
+              <p className="labeltitle h4 text-center text-uppercase">Informações básicas</p>
                 <Row>
                   <Col md={12}>
                   <Link
@@ -341,93 +250,61 @@ const ProductionUpdatePage = () => {
                                 <i className="bi bi-plus-square m-2 "></i>
                                 Novo evento
                               </Button>
-                    <Form.Group controlId="formBackground">
-                     
-                      <Form.Text className="text-white text-center mt-2">
-                        Selecione uma imagem de fundo (Resolução recomendada:
-                        1920x1080)
-                      </Form.Text>
-                    </Form.Group>
+            
                   </Col>
-                  <Col md={4}>
-                    <Form.Group controlId="formCEP">
-                      <Form.Control
-                        type="text"
-                        name="cep"
-                        placeholder="Digite o CEP"
-                        value={formData.cep}
-                        onChange={handleCepChange}
-                        required
-                        className="mt-3"
-                      />
-                    </Form.Group>
+                  <Col md={6}>
+                  <Form.Group controlId="formName">
+                  <Form.Control
+                    type="text"
+                    name="name"
+                    placeholder="Digite o nome da produção"
+                    value={formData.name}
+                    onChange={handleInputChange}
+                    required
+                    className="mt-3"
+                  />
+                </Form.Group>
                   </Col>
-                  <Col md={2}>
-                    <Form.Group controlId="formUf">
-                      <Form.Control
-                        as="select"
-                        name="uf"
-                        value={formData.uf}
-                        onChange={handleInputChange}
-                        required
-                        className="mt-3"
-                        disabled
-                      >
-                        <option value="">UF</option>
-                        <option value="AC">AC</option>
-                        <option value="AL">AL</option>
-                        <option value="AP">AP</option>
-                        <option value="AM">AM</option>
-                        <option value="BA">BA</option>
-                        <option value="CE">CE</option>
-                        <option value="DF">DF</option>
-                        <option value="ES">ES</option>
-                        <option value="GO">GO</option>
-                        <option value="MA">MA</option>
-                        <option value="MT">MT</option>
-                        <option value="MS">MS</option>
-                        <option value="MG">MG</option>
-                        <option value="PA">PA</option>
-                        <option value="PB">PB</option>
-                        <option value="PR">PR</option>
-                        <option value="PE">PE</option>
-                        <option value="PI">PI</option>
-                        <option value="RJ">RJ</option>
-                        <option value="RN">RN</option>
-                        <option value="RS">RS</option>
-                        <option value="RO">RO</option>
-                        <option value="RR">RR</option>
-                        <option value="SC">SC</option>
-                        <option value="SP">SP</option>
-                        <option value="SE">SE</option>
-                        <option value="TO">TO</option>
-                      </Form.Control>
-                    </Form.Group>
+                  <Col md={3}>
+                  <Form.Group controlId="formPhone">
+                  <Form.Control
+                    type="text"
+                    name="phone"
+                    placeholder="Telefone"
+                    value={formData.phone}
+                    onChange={handleInputChange}
+                    required
+                    className="mt-3"
+                  />
+                </Form.Group>
                   </Col>
 
-                  <Col md={6}>
-                    <Form.Group controlId="formCity">
+                  <Col md={3}>
+                    <Form.Group controlId="formCNPJ">
                       <Form.Control
                         type="text"
-                        name="city"
-                        placeholder="Digite a cidade"
-                        value={formData.city}
+                        name="cnpj"
+                        placeholder="Digite o CNPJ"
+                        value={formData.cnpj}
                         onChange={handleInputChange}
                         required
                         disabled
-                        className="mt-3"
+                        className="mt-3 disable"
                       />
                     </Form.Group>
                   </Col>
-                  <Col md={12}>
-                    <Form.Group controlId="formAddress">
+                </Row>
+                <Row>
+                  {/* Descrição */}
+                  <Col md={12} className="mt-2">
+                    <Form.Group controlId="formDescription">
                       <Form.Control
-                        type="text"
-                        name="address"
-                        placeholder="Digite o endereço"
-                        value={formData.address}
+                        as="textarea"
+                        rows={3}
+                        name="description"
+                        placeholder="Digite a descrição da produção"
+                        value={formData.description}
                         onChange={handleInputChange}
-                        className="mt-3"
                         required
                       />
                     </Form.Group>
@@ -471,27 +348,12 @@ const ProductionUpdatePage = () => {
                     />
                   </Col>
                 </Row>
-                <Row>
-                  {/* Descrição */}
-                  <Col md={12} className="mt-2">
-                    <Form.Group controlId="formDescription">
-                      <Form.Control
-                        as="textarea"
-                        rows={3}
-                        name="description"
-                        placeholder="Digite a descrição da produção"
-                        value={formData.description}
-                        onChange={handleInputChange}
-                        required
-                      />
-                    </Form.Group>
-                  </Col>
-                </Row>
+                
               </Card>
             </Col>
             <Col md={12} className="mt-2">
               <Card>
-                <Card.Title>Seguimentos</Card.Title>
+              <p className="labeltitle h4 text-center text-uppercase">Segumentos</p>
                 <Row>
                   {/* Renderização dos seguimentos em colunas */}
                   {segmentChunks.map((chunk, index) => (
@@ -559,20 +421,7 @@ const ProductionUpdatePage = () => {
           {error}
         </Alert>
       )}
-      <Link to={`/production/list`}>
-        <Button
-          variant="secondary"
-          disabled={loading}
-          style={{
-            position: "fixed",
-            bottom: "50px",
-            right: "100px",
-            zIndex: "1000",
-          }}
-        >
-          {loading ? "Carregando..." : "Voltar"}
-        </Button>
-      </Link>
+    
     </>
   );
 };
