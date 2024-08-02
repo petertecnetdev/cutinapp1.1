@@ -50,7 +50,7 @@ const EventPage = () => {
       <NavlogComponent />
       <Container>
         <Row>
-        <p className="labeltitle h2 text-center text-uppercase">Eventos</p>
+        <p className="labeltitle h4 text-center text-uppercase">Eventos</p>
           {events.map((event) => (
             <Col key={event.id} md={4}>
               <Card className="card-event">
@@ -122,7 +122,7 @@ const EventPage = () => {
         </Row>
 
         <Row>
-  <p className="labeltitle h2 text-center text-uppercase">Produções</p>
+  <p className="labeltitle h4 text-center text-uppercase">Produções</p>
   {productions.map((production) => (
     
     <Col key={production.id} md={4} className="p-4">
@@ -150,9 +150,8 @@ const EventPage = () => {
                         to={`/production/${production.slug}`}
                         style={{ textDecoration: "none" }}
                       >
-                        <Card.Title className="text-uppercase text-center labeltitle">
-                          {production.name}
-                        </Card.Title>
+                     
+  <p className="labeltitle h6 text-center text-uppercase">{production.name}</p>
                       </Link>
                     </Card.Body>
                   </Card>
