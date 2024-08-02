@@ -6,7 +6,6 @@ const apiServiceUrl = "user";
 const userService = {
   getToken: () => localStorage.getItem("token"),
 
-  
   list: async () => {
     try {
       const token = userService.getToken();
@@ -37,7 +36,6 @@ const userService = {
       );
     }
   },
-
 
   update: async (userId, userData) => {
     try {
@@ -158,6 +156,37 @@ const userService = {
     } catch (error) {
       console.error("Erro ao obter as informações do usuário:", error);
       throw new Error("Erro ao obter as informações do usuário. Por favor, tente novamente.");
+    }
+  },
+
+  destroy: async (userId) => {
+    try {
+      const token = userService.getToken();
+
+      if (!token) {
+        throw new Error("Usuário não autenticado.");
+      }
+
+      const headers = {
+        Authorization: `Bearer ${token}`,
+      };
+
+      const response = await axios.delete(`${apiBaseUrl}/${apiServiceUrl}/${userId}`, {
+        headers,
+      });
+
+      if (response.status === 200) {
+        return response.data;
+      } else {
+        throw new Error(
+          "Erro ao deletar o usuário. Por favor, tente novamente."
+        );
+      }
+    } catch (error) {
+      console.error("Erro ao deletar o usuário:", error);
+      throw new Error(
+        "Erro ao deletar o usuário. Por favor, tente novamente."
+      );
     }
   },
   

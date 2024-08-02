@@ -27,10 +27,10 @@ Route::group([
     'prefix' => 'user'
 ], function ($router) {
     Route::get('/', [UserController::class, 'list'])->name('user.list');
-    Route::get('/show/{id}', [UserController::class, 'show'])->name('user.show'); // Rota para mostrar o perfil do usuário
-    Route::get('/{userName}', [UserController::class, 'view'])->name('user.view'); // Rota para visualizar as informações do usuário por userName
+    Route::get('/show/{id}', [UserController::class, 'show'])->name('user.show'); 
+    Route::get('/{userName}', [UserController::class, 'view'])->name('user.view'); 
     Route::post('/new', [UserController::class, 'store'])->name('user.store');
-    Route::post('/{user}', [UserController::class, 'update'])->name('user.update'); // Deve ser post por causa da imagem
+    Route::post('/{user}', [UserController::class, 'update'])->name('user.update'); 
     Route::delete('/{id}', [UserController::class, 'destroy'])->name('user.destroy');
 });
 
