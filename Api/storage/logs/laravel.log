@@ -5132,3 +5132,143 @@ A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback.
 [2024-08-02 21:17:15] local.INFO: Usuário atualizado com sucesso: 4  
 [2024-08-02 21:23:24] local.INFO: Usuário atualizado com sucesso: 4  
 [2024-08-02 21:25:48] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:35:44] local.INFO: Slug fornecido: {"slug":"birosca"} 
+[2024-08-02 21:35:44] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":3,"name":"Birosca","fantasy":null,"cnpj":"28.114.009/0001-42","type":null,"slug":"birosca","establishment_type":"Pub","phone":"61982571111","segments":["pop","hiphop","electronic","alternative","funk","dance","fuleragem","forro","lgbt","trap"],"description":"Casa Noturna e espaço para festas localizada no coração de Brasília, no Setor de Diversões Sul, reduto da cultura underground e alternativa da Capital. Durante a pandemia foi transformada em um bar com DJs, que funciona madrugada à dentro. As sextas-feiras são dedicadas à música eletrônica e o sábado é dia de pop e funk","location":"https://www.google.com/maps/dir//birosca+do+conic/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3b4c6fe0c163:0x96a54c4f9289142a?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"SDS Bloco H - Asa Sul","city":"Brasília","uf":null,"country":null,"logo":"productions/WMu1HkHFfW2WJ0ilp4uvcfZswdxkHQ1IMjRFeOyQ.png","background":"productions/srKhYxTYgUtnetLJK2ZlEeRIIaoI7I0bgEmIHF1y.png","capacity":null,"user_id":1,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"http://www.instagram.com/biroscadoconic","twitter_url":"http://www.instagram.com/biroscadoconic","instagram_url":"http://www.instagram.com/biroscadoconic","youtube_url":"http://www.instagram.com/biroscadoconic","other_information":null,"images":null,"created_at":"2024-04-12T00:00:48.000000Z","updated_at":"2024-04-12T18:39:46.000000Z","user":null}}} 
+[2024-08-02 21:35:44] local.INFO: Slug fornecido: {"slug":"birosca"} 
+[2024-08-02 21:35:44] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":3,"name":"Birosca","fantasy":null,"cnpj":"28.114.009/0001-42","type":null,"slug":"birosca","establishment_type":"Pub","phone":"61982571111","segments":["pop","hiphop","electronic","alternative","funk","dance","fuleragem","forro","lgbt","trap"],"description":"Casa Noturna e espaço para festas localizada no coração de Brasília, no Setor de Diversões Sul, reduto da cultura underground e alternativa da Capital. Durante a pandemia foi transformada em um bar com DJs, que funciona madrugada à dentro. As sextas-feiras são dedicadas à música eletrônica e o sábado é dia de pop e funk","location":"https://www.google.com/maps/dir//birosca+do+conic/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3b4c6fe0c163:0x96a54c4f9289142a?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"SDS Bloco H - Asa Sul","city":"Brasília","uf":null,"country":null,"logo":"productions/WMu1HkHFfW2WJ0ilp4uvcfZswdxkHQ1IMjRFeOyQ.png","background":"productions/srKhYxTYgUtnetLJK2ZlEeRIIaoI7I0bgEmIHF1y.png","capacity":null,"user_id":1,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"http://www.instagram.com/biroscadoconic","twitter_url":"http://www.instagram.com/biroscadoconic","instagram_url":"http://www.instagram.com/biroscadoconic","youtube_url":"http://www.instagram.com/biroscadoconic","other_information":null,"images":null,"created_at":"2024-04-12T00:00:48.000000Z","updated_at":"2024-04-12T18:39:46.000000Z","user":null}}} 
+[2024-08-02 21:36:34] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 21:36:34] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 21:36:34] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 21:36:34] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 21:36:39] local.INFO: Slug fornecido: {"slug":"bolshoi-pub"} 
+[2024-08-02 21:36:39] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":6,"name":"Bolshoi Pub","fantasy":null,"cnpj":"06.191.898/0001-09","type":null,"slug":"bolshoi-pub","establishment_type":"Pub","phone":"(62) 3241-0731)","segments":["soul","metal","punk","punkrock","jazz","blues","rock","alternative"],"description":"A casa de shows mais tradicional de Goiânia.
+
+👉quin a sáb 20H às 3H.
+
+Live Music Venue.
+
+📲 WhatsApp (62) 3241-0731)","location":"https://www.google.com/maps/dir//bolshoi+pub+telefone/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935ef13a532fc709:0x6cdeaeb87fcafdec?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"Rua T 53 - Setor Bueno","city":"Goiânia","uf":null,"country":null,"logo":"productions/HyHvlat2BibPSacsxa0ClsvOdpWaYzeC90GAL0zX.jpg","background":"productions/HqQNCRPOwzCCTpJaeMGA0j3DpC3YV3GpVZHEybPA.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/bolshoipub/","twitter_url":null,"instagram_url":"https://www.instagram.com/bolshoipub/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:44:51.000000Z","updated_at":"2024-08-01T00:47:52.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 

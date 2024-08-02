@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Card, Col, Container, Row, Table, Modal, Alert } from "react-bootstrap"; // Adicionando o componente Alert
+import { Button, Card, Col, Container, Row, Modal, Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import profileService from "../../../services/ProfileService";
 import NavlogComponent from "../../../components/NavlogComponent";
@@ -10,8 +10,8 @@ const ProfileListPage = () => {
   const [error, setError] = useState(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [selectedProfileId, setSelectedProfileId] = useState(null);
-  const [showSuccessAlert, setShowSuccessAlert] = useState(false); // Estado para controlar a exibição do alerta de sucesso
-  const [showErrorAlert, setShowErrorAlert] = useState(false); // Estado para controlar a exibição do alerta de erro
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const [showErrorAlert, setShowErrorAlert] = useState(false);
 
   const fetchProfiles = async () => {
     setLoading(true);
@@ -34,15 +34,13 @@ const ProfileListPage = () => {
   const handleDeleteProfile = async (id) => {
     try {
       await profileService.destroy(id);
-      // Atualizar a lista de perfis após a exclusão
       fetchProfiles();
-      setShowSuccessAlert(true); // Exibir o alerta de sucesso após a exclusão
-      setTimeout(() => setShowSuccessAlert(false), 5000); // Ocultar o alerta após 5 segundos
+      setShowSuccessAlert(true);
+      setTimeout(() => setShowSuccessAlert(false), 5000);
     } catch (error) {
       console.error("Erro ao excluir o perfil:", error);
-      // Tratar o erro de exclusão do perfil
-      setShowErrorAlert(true); // Exibir o alerta de erro após a falha na exclusão
-      setTimeout(() => setShowErrorAlert(false), 5000); // Ocultar o alerta após 5 segundos
+      setShowErrorAlert(true);
+      setTimeout(() => setShowErrorAlert(false), 5000);
     }
   };
 
@@ -60,47 +58,27 @@ const ProfileListPage = () => {
     <>
       <NavlogComponent />
       <Container>
-        <Row className="justify-content-md-center">
-          <Col md={12} className="mt-5">
-            <Card className="mt-5">
-              <Card.Body>
-                <Card.Title>Lista de Perfis</Card.Title>
-                <Table striped bordered hover className="table-dark text-white rounded">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Nome do Perfil</th>
-                      <th>Ações</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {profiles.map((profile, index) => (
-                      <tr key={profile.id}>
-                        <td>{index + 1}</td>
-                        <td>{profile.name}</td>
-                        <td>
-                          <Button variant="info" size="sm" className="m-1">
-                            <Link
-                              to={`/profile/update/${profile.id}`}
-                              style={{ textDecoration: "none", color: "white" }}
-                            >
-                              Editar
-                            </Link>
-                          </Button>
-
-                          <Button variant="danger" size="sm" className="m-1" onClick={() => handleShowConfirmModal(profile.id)}>
-                            Excluir
-                          </Button>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </Table>
-                {loading && <p>Carregando...</p>}
-                {error && <Alert variant="danger">{error}</Alert>} {/* Exibir alerta de erro se houver um erro */}
-              </Card.Body>
-            </Card>
-          </Col>
+      <p className="labeltitle h4 text-center ">Profiles</p>
+        <Row className="justify-content-md-center mt-5">
+          {profiles.map((profile) => (
+            <Col md={4} key={profile.id} className="mb-4">
+              <Card>
+                <Card.Body>
+                  <Card.Title>{profile.name}</Card.Title>
+                  <Link to={`/profile/update/${profile.id}`}>
+                    <Button variant="info" className="m-1">
+                      Editar
+                    </Button>
+                  </Link>
+                  <Button variant="danger" className="m-1" onClick={() => handleShowConfirmModal(profile.id)}>
+                    Excluir
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+          {loading && <p>Carregando...</p>}
+          {error && <Alert variant="danger" style={{ position: "fixed", top: "10px", right: "10px", zIndex: "1050" }}>{error}</Alert>}
         </Row>
         <Link to="/profile/create">
           <Button
@@ -118,7 +96,6 @@ const ProfileListPage = () => {
         </Link>
       </Container>
 
-      {/* Modal de confirmação para exclusão */}
       <Modal show={showConfirmModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>Confirmar Exclusão</Modal.Title>
@@ -134,12 +111,10 @@ const ProfileListPage = () => {
         </Modal.Footer>
       </Modal>
 
-      {/* Alerta de sucesso após a exclusão */}
       <Alert variant="success" show={showSuccessAlert} onClose={() => setShowSuccessAlert(false)} dismissible style={{ position: "fixed", top: "10px", right: "10px", zIndex: "1050" }}>
         Perfil excluído com sucesso.
       </Alert>
 
-      {/* Alerta de erro após falha na exclusão */}
       <Alert variant="danger" show={showErrorAlert} onClose={() => setShowErrorAlert(false)} dismissible style={{ position: "fixed", top: "10px", right: "10px", zIndex: "1050" }}>
         Erro ao excluir o perfil. Por favor, tente novamente.
       </Alert>
