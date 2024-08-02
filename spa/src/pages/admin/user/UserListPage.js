@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button, Card, Col, Container, Row, Modal, Alert } from "react-bootstrap";
+import { Button, Card, Col, Container, Row, Modal, Alert, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import userService from "../../../services/UserService";
 import NavlogComponent from "../../../components/NavlogComponent";
@@ -11,12 +11,16 @@ const UserListPage = () => {
   const [error, setError] = useState(null);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [selectedUserId, setSelectedUserId] = useState(null);
-  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
-  const [showErrorAlert, setShowErrorAlert] = useState(false);
+  const [successMessage, setSuccessMessage] = useState(null);
   const [modalErrorMessage, setModalErrorMessage] = useState("");
-
-  // Simulação do ID do usuário autenticado. Substitua isso pelo ID real do usuário autenticado
-  const authenticatedUserId = 1; // Substitua pelo ID real do usuário autenticado
+  const [profiles, setProfiles] = useState([]);
+  const [showEditModal, setShowEditModal] = useState(false);
+  const [userFormData, setUserFormData] = useState({
+    first_name: '',
+    last_name: '',
+    email: '',
+    profile_id: ''
+  });
 
   const fetchUsers = async () => {
     setLoading(true);
@@ -24,6 +28,7 @@ const UserListPage = () => {
     try {
       const response = await userService.list();
       setUsers(response.users || []);
+      setProfiles(response.profiles || []);
     } catch (error) {
       console.error("Erro ao obter a lista de usuários:", error);
       setError("Erro ao obter a lista de usuários. Por favor, tente novamente.");
@@ -32,46 +37,74 @@ const UserListPage = () => {
     }
   };
 
+  useEffect(() => {
+    fetchUsers();
+  }, []);
+
+  useEffect(() => {
+    let timer;
+    if (error || successMessage) {
+      timer = setTimeout(() => {
+        setError(null);
+        setSuccessMessage(null);
+      }, 5000);
+    }
+    return () => clearTimeout(timer);
+  }, [error, successMessage]);
+
   const handleDeleteUser = async (id) => {
     try {
-      await userService.destroy(id);
+      const response = await userService.destroy(id);
       fetchUsers();
-      setShowSuccessAlert(true);
-      setTimeout(() => setShowSuccessAlert(false), 5000);
+      setSuccessMessage(response.message || "Usuário deletado com sucesso.");
     } catch (error) {
       if (error.response && error.response.data && error.response.data.error) {
         setModalErrorMessage(error.response.data.error);
       } else {
-        setModalErrorMessage("Não foi possível deletar o usuário");
+        setModalErrorMessage("Não foi possível deletar o usuário.");
       }
-      setShowConfirmModal(true); // Exibe o modal com a mensagem de erro
+      setShowConfirmModal(true);
     }
   };
 
   const handleConfirmDelete = () => {
-    if (selectedUserId === authenticatedUserId) {
-      setModalErrorMessage("Você não pode se auto-deletar.");
-      // Não fecha o modal, apenas exibe a mensagem de erro
-    } else {
-      handleDeleteUser(selectedUserId);
-      setShowConfirmModal(false);
-    }
+    handleDeleteUser(selectedUserId);
+    setShowConfirmModal(false);
   };
 
   const handleCloseModal = () => {
     setShowConfirmModal(false);
     setSelectedUserId(null);
-    setModalErrorMessage("");  // Clear error message when closing the modal
+    setModalErrorMessage("");
   };
 
-  const handleShowConfirmModal = (id) => {
-    setSelectedUserId(id);
-    setShowConfirmModal(true);
+  const handleEditUser = (user) => {
+    setUserFormData({
+      first_name: user.first_name,
+      last_name: user.last_name,
+      email: user.email,
+      profile_id: user.profile_id
+    });
+    setSelectedUserId(user.id);
+    setShowEditModal(true);
   };
 
-  useEffect(() => {
-    fetchUsers();
-  }, []);
+  const handleUpdateUser = async () => {
+    try {
+      const response = await userService.update(selectedUserId, userFormData);
+      fetchUsers();
+      setShowEditModal(false);
+      setSuccessMessage(response.message || "Usuário atualizado com sucesso.");
+    } catch (error) {
+      console.error("Erro ao atualizar o usuário:", error);
+      setError(error.response?.data?.error || "Erro ao atualizar o usuário.");
+    }
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setUserFormData({ ...userFormData, [name]: value });
+  };
 
   return (
     <>
@@ -84,44 +117,31 @@ const UserListPage = () => {
             {error && (
               <Alert
                 variant="danger"
+                onClose={() => setError(null)}
+                dismissible
                 style={{
                   position: "fixed",
                   top: "10px",
                   right: "10px",
-                  zIndex: "1000",
+                  zIndex: "1050",
                 }}
               >
                 {error}
               </Alert>
             )}
-            {showSuccessAlert && (
+            {successMessage && (
               <Alert
                 variant="success"
+                onClose={() => setSuccessMessage(null)}
+                dismissible
                 style={{
                   position: "fixed",
                   top: "10px",
                   right: "10px",
-                  zIndex: "1000",
+                  zIndex: "1050",
                 }}
-                onClose={() => setShowSuccessAlert(false)}
-                dismissible
               >
-                Usuário deletado com sucesso
-              </Alert>
-            )}
-            {showErrorAlert && (
-              <Alert
-                variant="danger"
-                style={{
-                  position: "fixed",
-                  top: "10px",
-                  right: "10px",
-                  zIndex: "1000",
-                }}
-                onClose={() => setShowErrorAlert(false)}
-                dismissible
-              >
-                Não foi possível deletar o usuário
+                {successMessage}
               </Alert>
             )}
             <Row>
@@ -150,15 +170,10 @@ const UserListPage = () => {
                       </Card.Title>
                       <Card.Text>{user.email}</Card.Text>
                       <Link to={`/user/${user.user_name}`} className="btn btn-primary mt-auto">
-                        {user.user_name}
+                        Ver Perfil
                       </Link>
-                      <Button
-                        variant="danger"
-                        className={`mt-2 ${user.id === authenticatedUserId ? 'disabled' : ''}`}
-                        onClick={() => user.id !== authenticatedUserId && handleShowConfirmModal(user.id)}
-                        disabled={user.id === authenticatedUserId}
-                      >
-                        Deletar
+                      <Button variant="warning" onClick={() => handleEditUser(user)} className="mt-2">
+                        Editar Perfil
                       </Button>
                     </Card.Body>
                   </Card>
@@ -167,42 +182,53 @@ const UserListPage = () => {
             </Row>
           </Col>
         </Row>
-        <Link to="/user/create">
-          <Button
-            variant="primary"
-            disabled={loading}
-            style={{
-              position: "fixed",
-              bottom: "50px",
-              right: "20px",
-              zIndex: "1000",
-            }}
-          >
-            {loading ? "Carregando..." : "Adicionar"}
-          </Button>
-        </Link>
       </Container>
 
-      <Modal
-        className="text-dark"
-        show={showConfirmModal}
-        onHide={handleCloseModal}
-      >
+      <Modal show={showEditModal} onHide={() => setShowEditModal(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Confirmar exclusão</Modal.Title>
+          <Modal.Title>Editar Usuário</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          {modalErrorMessage || "Deseja excluir este usuário? Isso será irreversível."}
+          <Form>
+          
+            <Form.Group controlId="profile_id">
+              <Form.Label>Perfil</Form.Label>
+              <Form.Control
+                as="select"
+                name="profile_id"
+                value={userFormData.profile_id}
+                onChange={handleInputChange}
+              >
+                {profiles.map((profile) => (
+                  <option key={profile.id} value={profile.id}>
+                    {profile.name}
+                  </option>
+                ))}
+              </Form.Control>
+            </Form.Group>
+          </Form>
         </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setShowEditModal(false)}>
+            Cancelar
+          </Button>
+          <Button variant="primary" onClick={handleUpdateUser}>
+            Atualizar
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal show={showConfirmModal} onHide={handleCloseModal}>
+        <Modal.Header closeButton>
+          <Modal.Title>Confirmar Exclusão</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{modalErrorMessage}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleCloseModal}>
             Cancelar
           </Button>
-          <Button
-            variant="danger"
-            onClick={handleConfirmDelete}
-          >
-            Excluir
+          <Button variant="danger" onClick={handleConfirmDelete}>
+            Deletar
           </Button>
         </Modal.Footer>
       </Modal>
