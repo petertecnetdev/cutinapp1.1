@@ -42,7 +42,7 @@ class UserController extends Controller
             }
 
             // Verificar se o usuário tem permissão para atualizar
-            if ($user->id != $userId && !$user->hasPermission('update_user')) {
+            if ($user->id != $userId && !$user->hasPermission('user_edit')) {
                 Log::error('Usuário não tem permissão para atualizar este usuário.');
                 return response()->json(['error' => ' Você não tem permissão para atualizar este usuário.'], 403);
             }
