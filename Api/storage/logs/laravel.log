@@ -5116,3 +5116,19 @@ A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback.
 "} 
 =======
 >>>>>>> 7c2d6b6191314f53d1772e21b8f5ad79e10e808c
+[2024-08-02 13:27:15] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 13:27:17] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 18:33:50] local.INFO: Dados recebidos para criação de perfil: {"name":"Produtor","permissions":["item_scan","item_check","item_list","item_config","item_create","event_config","event_create","event_edit","event_delete","ticket_create","ticket_edit","ticket_delete","ticket_sale_view","ticket_sale_manage_own","ticket_sale_manage_others","ticket_sale_report","ticket_sale_refund","ticket_sale_export","promoter_create","promoter_edit","promoter_delete","production_scan","production_validate","production_list","production_configure","production_create","production_update","production_delete"]} 
+[2024-08-02 18:33:59] local.INFO: Dados recebidos para criação de perfil: {"name":"Produtor","permissions":["item_scan","item_check","item_list","item_config","item_create","event_config","event_create","event_edit","event_delete","ticket_create","ticket_edit","ticket_delete","ticket_sale_view","ticket_sale_manage_own","ticket_sale_manage_others","ticket_sale_report","ticket_sale_refund","ticket_sale_export","promoter_create","promoter_edit","promoter_delete","production_scan","production_validate","production_list","production_configure","production_create","production_update","production_delete"]} 
+[2024-08-02 20:18:37] local.ERROR: Usuário não tem permissão para atualizar este usuário.  
+[2024-08-02 20:18:52] local.ERROR: Usuário não tem permissão para atualizar este usuário.  
+[2024-08-02 20:30:30] local.ERROR: Usuário não tem permissão para atualizar este usuário.  
+[2024-08-02 20:32:00] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:32:57] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:33:34] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:36:20] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:36:28] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:54:41] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:17:15] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:23:24] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:25:48] local.INFO: Usuário atualizado com sucesso: 4  
