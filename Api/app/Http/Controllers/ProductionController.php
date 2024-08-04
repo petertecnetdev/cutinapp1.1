@@ -30,7 +30,7 @@ class ProductionController extends Controller
     {
         try {
             // Obter todas as produções cadastradas com o nome do produtor
-            $productions = Production::with('user')->get();
+            $productions = Production::with('user')->orderBy('created_at', 'desc')->get();
 
       
             // Retornar as produções com o nome do produtor como resposta em formato JSON

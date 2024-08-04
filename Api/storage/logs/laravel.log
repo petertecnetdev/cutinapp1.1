@@ -5116,7 +5116,908 @@ A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback.
 "} 
 =======
 >>>>>>> 7c2d6b6191314f53d1772e21b8f5ad79e10e808c
+<<<<<<< HEAD
 [2024-08-02 21:31:49] local.INFO: Slug fornecido: {"slug":"birosca"} 
 [2024-08-02 21:31:49] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":3,"name":"Birosca","fantasy":null,"cnpj":"28.114.009/0001-42","type":null,"slug":"birosca","establishment_type":"Pub","phone":"61982571111","segments":["pop","hiphop","electronic","alternative","funk","dance","fuleragem","forro","lgbt","trap"],"description":"Casa Noturna e espaço para festas localizada no coração de Brasília, no Setor de Diversões Sul, reduto da cultura underground e alternativa da Capital. Durante a pandemia foi transformada em um bar com DJs, que funciona madrugada à dentro. As sextas-feiras são dedicadas à música eletrônica e o sábado é dia de pop e funk","location":"https://www.google.com/maps/dir//birosca+do+conic/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3b4c6fe0c163:0x96a54c4f9289142a?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"SDS Bloco H - Asa Sul","city":"Brasília","uf":null,"country":null,"logo":"productions/WMu1HkHFfW2WJ0ilp4uvcfZswdxkHQ1IMjRFeOyQ.png","background":"productions/srKhYxTYgUtnetLJK2ZlEeRIIaoI7I0bgEmIHF1y.png","capacity":null,"user_id":1,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"http://www.instagram.com/biroscadoconic","twitter_url":"http://www.instagram.com/biroscadoconic","instagram_url":"http://www.instagram.com/biroscadoconic","youtube_url":"http://www.instagram.com/biroscadoconic","other_information":null,"images":null,"created_at":"2024-04-12T00:00:48.000000Z","updated_at":"2024-04-12T18:39:46.000000Z","user":null}}} 
 [2024-08-02 21:31:49] local.INFO: Slug fornecido: {"slug":"birosca"} 
 [2024-08-02 21:31:49] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":3,"name":"Birosca","fantasy":null,"cnpj":"28.114.009/0001-42","type":null,"slug":"birosca","establishment_type":"Pub","phone":"61982571111","segments":["pop","hiphop","electronic","alternative","funk","dance","fuleragem","forro","lgbt","trap"],"description":"Casa Noturna e espaço para festas localizada no coração de Brasília, no Setor de Diversões Sul, reduto da cultura underground e alternativa da Capital. Durante a pandemia foi transformada em um bar com DJs, que funciona madrugada à dentro. As sextas-feiras são dedicadas à música eletrônica e o sábado é dia de pop e funk","location":"https://www.google.com/maps/dir//birosca+do+conic/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3b4c6fe0c163:0x96a54c4f9289142a?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"SDS Bloco H - Asa Sul","city":"Brasília","uf":null,"country":null,"logo":"productions/WMu1HkHFfW2WJ0ilp4uvcfZswdxkHQ1IMjRFeOyQ.png","background":"productions/srKhYxTYgUtnetLJK2ZlEeRIIaoI7I0bgEmIHF1y.png","capacity":null,"user_id":1,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"http://www.instagram.com/biroscadoconic","twitter_url":"http://www.instagram.com/biroscadoconic","instagram_url":"http://www.instagram.com/biroscadoconic","youtube_url":"http://www.instagram.com/biroscadoconic","other_information":null,"images":null,"created_at":"2024-04-12T00:00:48.000000Z","updated_at":"2024-04-12T18:39:46.000000Z","user":null}}} 
+=======
+[2024-08-02 13:27:15] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 13:27:17] local.ERROR: Tentativa de auto-deleção detectada.  
+[2024-08-02 18:33:50] local.INFO: Dados recebidos para criação de perfil: {"name":"Produtor","permissions":["item_scan","item_check","item_list","item_config","item_create","event_config","event_create","event_edit","event_delete","ticket_create","ticket_edit","ticket_delete","ticket_sale_view","ticket_sale_manage_own","ticket_sale_manage_others","ticket_sale_report","ticket_sale_refund","ticket_sale_export","promoter_create","promoter_edit","promoter_delete","production_scan","production_validate","production_list","production_configure","production_create","production_update","production_delete"]} 
+[2024-08-02 18:33:59] local.INFO: Dados recebidos para criação de perfil: {"name":"Produtor","permissions":["item_scan","item_check","item_list","item_config","item_create","event_config","event_create","event_edit","event_delete","ticket_create","ticket_edit","ticket_delete","ticket_sale_view","ticket_sale_manage_own","ticket_sale_manage_others","ticket_sale_report","ticket_sale_refund","ticket_sale_export","promoter_create","promoter_edit","promoter_delete","production_scan","production_validate","production_list","production_configure","production_create","production_update","production_delete"]} 
+[2024-08-02 20:18:37] local.ERROR: Usuário não tem permissão para atualizar este usuário.  
+[2024-08-02 20:18:52] local.ERROR: Usuário não tem permissão para atualizar este usuário.  
+[2024-08-02 20:30:30] local.ERROR: Usuário não tem permissão para atualizar este usuário.  
+[2024-08-02 20:32:00] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:32:57] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:33:34] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:36:20] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:36:28] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 20:54:41] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:17:15] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:23:24] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:25:48] local.INFO: Usuário atualizado com sucesso: 4  
+[2024-08-02 21:35:44] local.INFO: Slug fornecido: {"slug":"birosca"} 
+[2024-08-02 21:35:44] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":3,"name":"Birosca","fantasy":null,"cnpj":"28.114.009/0001-42","type":null,"slug":"birosca","establishment_type":"Pub","phone":"61982571111","segments":["pop","hiphop","electronic","alternative","funk","dance","fuleragem","forro","lgbt","trap"],"description":"Casa Noturna e espaço para festas localizada no coração de Brasília, no Setor de Diversões Sul, reduto da cultura underground e alternativa da Capital. Durante a pandemia foi transformada em um bar com DJs, que funciona madrugada à dentro. As sextas-feiras são dedicadas à música eletrônica e o sábado é dia de pop e funk","location":"https://www.google.com/maps/dir//birosca+do+conic/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3b4c6fe0c163:0x96a54c4f9289142a?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"SDS Bloco H - Asa Sul","city":"Brasília","uf":null,"country":null,"logo":"productions/WMu1HkHFfW2WJ0ilp4uvcfZswdxkHQ1IMjRFeOyQ.png","background":"productions/srKhYxTYgUtnetLJK2ZlEeRIIaoI7I0bgEmIHF1y.png","capacity":null,"user_id":1,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"http://www.instagram.com/biroscadoconic","twitter_url":"http://www.instagram.com/biroscadoconic","instagram_url":"http://www.instagram.com/biroscadoconic","youtube_url":"http://www.instagram.com/biroscadoconic","other_information":null,"images":null,"created_at":"2024-04-12T00:00:48.000000Z","updated_at":"2024-04-12T18:39:46.000000Z","user":null}}} 
+[2024-08-02 21:35:44] local.INFO: Slug fornecido: {"slug":"birosca"} 
+[2024-08-02 21:35:44] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":3,"name":"Birosca","fantasy":null,"cnpj":"28.114.009/0001-42","type":null,"slug":"birosca","establishment_type":"Pub","phone":"61982571111","segments":["pop","hiphop","electronic","alternative","funk","dance","fuleragem","forro","lgbt","trap"],"description":"Casa Noturna e espaço para festas localizada no coração de Brasília, no Setor de Diversões Sul, reduto da cultura underground e alternativa da Capital. Durante a pandemia foi transformada em um bar com DJs, que funciona madrugada à dentro. As sextas-feiras são dedicadas à música eletrônica e o sábado é dia de pop e funk","location":"https://www.google.com/maps/dir//birosca+do+conic/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935a3b4c6fe0c163:0x96a54c4f9289142a?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"SDS Bloco H - Asa Sul","city":"Brasília","uf":null,"country":null,"logo":"productions/WMu1HkHFfW2WJ0ilp4uvcfZswdxkHQ1IMjRFeOyQ.png","background":"productions/srKhYxTYgUtnetLJK2ZlEeRIIaoI7I0bgEmIHF1y.png","capacity":null,"user_id":1,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"http://www.instagram.com/biroscadoconic","twitter_url":"http://www.instagram.com/biroscadoconic","instagram_url":"http://www.instagram.com/biroscadoconic","youtube_url":"http://www.instagram.com/biroscadoconic","other_information":null,"images":null,"created_at":"2024-04-12T00:00:48.000000Z","updated_at":"2024-04-12T18:39:46.000000Z","user":null}}} 
+[2024-08-02 21:36:34] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 21:36:34] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 21:36:34] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 21:36:34] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 21:36:39] local.INFO: Slug fornecido: {"slug":"bolshoi-pub"} 
+[2024-08-02 21:36:39] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":6,"name":"Bolshoi Pub","fantasy":null,"cnpj":"06.191.898/0001-09","type":null,"slug":"bolshoi-pub","establishment_type":"Pub","phone":"(62) 3241-0731)","segments":["soul","metal","punk","punkrock","jazz","blues","rock","alternative"],"description":"A casa de shows mais tradicional de Goiânia.
+
+👉quin a sáb 20H às 3H.
+
+Live Music Venue.
+
+📲 WhatsApp (62) 3241-0731)","location":"https://www.google.com/maps/dir//bolshoi+pub+telefone/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x935ef13a532fc709:0x6cdeaeb87fcafdec?sa=X&ved=1t:3061&ictx=111","cep":null,"address":"Rua T 53 - Setor Bueno","city":"Goiânia","uf":null,"country":null,"logo":"productions/HyHvlat2BibPSacsxa0ClsvOdpWaYzeC90GAL0zX.jpg","background":"productions/HqQNCRPOwzCCTpJaeMGA0j3DpC3YV3GpVZHEybPA.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/bolshoipub/","twitter_url":null,"instagram_url":"https://www.instagram.com/bolshoipub/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:44:51.000000Z","updated_at":"2024-08-01T00:47:52.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 21:53:34] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 21:53:34] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 21:53:34] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 21:53:34] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 22:39:03] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 22:39:03] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 22:39:03] local.INFO: Slug fornecido: {"slug":"roxy"} 
+[2024-08-02 22:39:03] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":5,"name":"Roxy","fantasy":null,"cnpj":"29.543.325/0001-00","type":null,"slug":"roxy","establishment_type":"Boate","phone":null,"segments":["pop","dance","electronic","fuleragem","funk","lgbt","alternative"],"description":"VEM PRA ROXY ❤️‍🔥
+
+sexta | sábado • a partir das 23h","location":"https://www.google.com/maps/dir/-16.7070333,-49.2740054/roxy+boate+goiania+telefone/@-16.6988369,-49.2786045,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x935ef168ffffffff:0x307e60a2feccba05!2m2!1d-49.2590135!2d-16.690641?entry=ttu","cep":null,"address":"Rua 87 - Setor Sul","city":"Goiânia","uf":null,"country":null,"logo":"productions/kAgTOPZP3OiUP3qQbB0i7QPUlHiGU0RlpDPnh2AI.jpg","background":"productions/iNkDTleNYJvdXYbtcGPhCLNDl34o39QK6jbviH7Q.jpg","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":"https://www.instagram.com/roxygoiania/","twitter_url":null,"instagram_url":"https://www.instagram.com/roxygoiania/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-01T00:26:51.000000Z","updated_at":"2024-08-02T00:11:34.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-02 23:02:15] local.INFO: Slug fornecido: {"slug":"get-company-info"} 
+[2024-08-02 23:02:15] local.ERROR: Erro ao carregar informações da produção: {"exception":"[object] (Illuminate\\Database\\Eloquent\\ModelNotFoundException(code: 0): No query results for model [App\\Models\\Production]. at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php:598)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\app\\Http\\Controllers\\ProductionController.php(243): Illuminate\\Database\\Eloquent\\Builder->firstOrFail()
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ProductionController->view('get-company-inf...')
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('view', Array)
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ProductionController), 'view')
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(92): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 {main}
+"} 
+[2024-08-03 00:15:00] local.INFO: Slug fornecido: {"slug":"get-company-info"} 
+[2024-08-03 00:15:00] local.ERROR: Erro ao carregar informações da produção: {"exception":"[object] (Illuminate\\Database\\Eloquent\\ModelNotFoundException(code: 0): No query results for model [App\\Models\\Production]. at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php:598)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\app\\Http\\Controllers\\ProductionController.php(243): Illuminate\\Database\\Eloquent\\Builder->firstOrFail()
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ProductionController->view('get-company-inf...')
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('view', Array)
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ProductionController), 'view')
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(92): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 {main}
+"} 
+[2024-08-03 00:36:59] local.ERROR: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tickets' already exists (SQL: create table `tickets` (`id` bigint unsigned not null auto_increment primary key, `event_id` bigint unsigned not null, `name` varchar(255) not null, `price` decimal(8, 2) not null, `available_limit` int not null, `description` text null, `sale_start_date` timestamp null, `sale_end_date` timestamp null, `promo_code` varchar(255) null, `status` enum('available', 'sold_out', 'reserved') not null default 'available', `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tickets' already exists (SQL: create table `tickets` (`id` bigint unsigned not null auto_increment primary key, `event_id` bigint unsigned not null, `name` varchar(255) not null, `price` decimal(8, 2) not null, `available_limit` int not null, `description` text null, `sale_start_date` timestamp null, `sale_end_date` timestamp null, `promo_code` varchar(255) null, `status` enum('available', 'sold_out', 'reserved') not null default 'available', `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('create table `t...', Array, Object(Closure))
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(534): Illuminate\\Database\\Connection->run('create table `t...', Array, Object(Closure))
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `t...')
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(281): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Database\\Schema\\Builder->create('tickets', Object(Closure))
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\database\\migrations\\2024_08_03_003614_create_tickets_table.php(10): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(488): CreateTicketsTable->up()
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(406): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(CreateTicketsTable), 'up')
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(415): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateTicketsTable), 'up')
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(751): Illuminate\\Console\\View\\Components\\Task->render('2024_08_03_0036...', Object(Closure))
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_08_03_0036...', Object(Closure))
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Development\\\\...', 2, false)
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(628): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(152): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Application.php(1078): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 {main}
+
+[previous exception] [object] (PDOException(code: 42S01): SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'tickets' already exists at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:545)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(545): PDOStatement->execute()
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `t...', Array)
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback('create table `t...', Array, Object(Closure))
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(534): Illuminate\\Database\\Connection->run('create table `t...', Array, Object(Closure))
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `t...')
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(439): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(281): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Database\\Schema\\Builder->create('tickets', Object(Closure))
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\database\\migrations\\2024_08_03_003614_create_tickets_table.php(10): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(488): CreateTicketsTable->up()
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(406): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(CreateTicketsTable), 'up')
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(415): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(CreateTicketsTable), 'up')
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(37): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(751): Illuminate\\Console\\View\\Components\\Task->render('2024_08_03_0036...', Object(Closure))
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(216): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_08_03_0036...', Object(Closure))
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(181): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\Development\\\\...', 2, false)
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(124): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(628): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(81): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(661): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(183): Illuminate\\Container\\Container->call(Array)
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(152): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Application.php(1078): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 {main}
+"} 
+[2024-08-03 14:55:42] production.ERROR: Secret is not set. {"exception":"[object] (Tymon\\JWTAuth\\Exceptions\\JWTException(code: 0): Secret is not set. at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\JWT\\Lcobucci.php:244)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\JWT\\Lcobucci.php(186): Tymon\\JWTAuth\\Providers\\JWT\\Lcobucci->getSigningKey()
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\JWT\\Lcobucci.php(57): Tymon\\JWTAuth\\Providers\\JWT\\Lcobucci->buildConfig()
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\AbstractServiceProvider.php(167): Tymon\\JWTAuth\\Providers\\JWT\\Lcobucci->__construct(NULL, 'HS256', Array)
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Tymon\\JWTAuth\\Providers\\AbstractServiceProvider->Tymon\\JWTAuth\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('tymon.jwt.provi...', Array, true)
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('tymon.jwt.provi...', Array)
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('tymon.jwt.provi...', Array)
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\AbstractServiceProvider.php(367): Illuminate\\Foundation\\Application->make('tymon.jwt.provi...')
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\AbstractServiceProvider.php(138): Tymon\\JWTAuth\\Providers\\AbstractServiceProvider->getConfigInstance('providers.jwt')
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Tymon\\JWTAuth\\Providers\\AbstractServiceProvider->Tymon\\JWTAuth\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('tymon.jwt.provi...', Array, true)
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('tymon.jwt.provi...', Array)
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('tymon.jwt.provi...', Array)
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('tymon.jwt.provi...')
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\AbstractServiceProvider.php(208): Illuminate\\Container\\Container->offsetGet('tymon.jwt.provi...')
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Tymon\\JWTAuth\\Providers\\AbstractServiceProvider->Tymon\\JWTAuth\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('tymon.jwt.manag...', Array, true)
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('tymon.jwt.manag...', Array)
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('tymon.jwt.manag...', Array)
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('tymon.jwt.manag...')
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\AbstractServiceProvider.php(250): Illuminate\\Container\\Container->offsetGet('tymon.jwt.manag...')
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Tymon\\JWTAuth\\Providers\\AbstractServiceProvider->Tymon\\JWTAuth\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('tymon.jwt', Array, true)
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('tymon.jwt', Array)
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('tymon.jwt', Array)
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('tymon.jwt')
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\tymon\\jwt-auth\\src\\Providers\\AbstractServiceProvider.php(96): Illuminate\\Container\\Container->offsetGet('tymon.jwt')
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\AuthManager.php(113): Tymon\\JWTAuth\\Providers\\AbstractServiceProvider->Tymon\\JWTAuth\\Providers\\{closure}(Object(Illuminate\\Foundation\\Application), 'api', Array)
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\AuthManager.php(90): Illuminate\\Auth\\AuthManager->callCustomCreator('api', Array)
+#33 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\AuthManager.php(70): Illuminate\\Auth\\AuthManager->resolve('api')
+#34 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(63): Illuminate\\Auth\\AuthManager->guard('api')
+#35 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(42): Illuminate\\Auth\\Middleware\\Authenticate->authenticate(Object(Illuminate\\Http\\Request), Array)
+#36 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#37 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#39 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#40 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#41 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#42 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#43 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#44 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#59 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#60 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#61 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#62 {main}
+"} 
+[2024-08-04 00:25:49] local.INFO: Slug fornecido: {"slug":"biel"} 
+[2024-08-04 00:25:49] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":13,"name":"BiEL","fantasy":null,"cnpj":"40863981000115","type":null,"slug":"biel","establishment_type":null,"phone":"(21) 98410-2386","segments":["indie","pop"],"description":"DJ E PRODUTOR DA  @rookie.sp e @dopamina.sp","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/pvDKJJjE7ZZ30wj1vrtCg6Pz0M4W905Ve0p8wA7h.png","background":"productions/aEHLEKHf49LiR9QQa1hqrBnLMPFJpw2RnYQ4nnSW.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biel.prod/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-03T00:17:06.000000Z","updated_at":"2024-08-03T00:17:07.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-04 00:25:49] local.INFO: Slug fornecido: {"slug":"biel"} 
+[2024-08-04 00:25:49] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":13,"name":"BiEL","fantasy":null,"cnpj":"40863981000115","type":null,"slug":"biel","establishment_type":null,"phone":"(21) 98410-2386","segments":["indie","pop"],"description":"DJ E PRODUTOR DA  @rookie.sp e @dopamina.sp","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/pvDKJJjE7ZZ30wj1vrtCg6Pz0M4W905Ve0p8wA7h.png","background":"productions/aEHLEKHf49LiR9QQa1hqrBnLMPFJpw2RnYQ4nnSW.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biel.prod/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-03T00:17:06.000000Z","updated_at":"2024-08-03T00:17:07.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-04 00:25:57] local.INFO: Slug fornecido: {"slug":"biel"} 
+[2024-08-04 00:25:57] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":13,"name":"BiEL","fantasy":null,"cnpj":"40863981000115","type":null,"slug":"biel","establishment_type":null,"phone":"(21) 98410-2386","segments":["indie","pop"],"description":"DJ E PRODUTOR DA  @rookie.sp e @dopamina.sp","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/pvDKJJjE7ZZ30wj1vrtCg6Pz0M4W905Ve0p8wA7h.png","background":"productions/aEHLEKHf49LiR9QQa1hqrBnLMPFJpw2RnYQ4nnSW.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biel.prod/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-03T00:17:06.000000Z","updated_at":"2024-08-03T00:17:07.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-04 00:25:57] local.INFO: Slug fornecido: {"slug":"biel"} 
+[2024-08-04 00:25:57] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":13,"name":"BiEL","fantasy":null,"cnpj":"40863981000115","type":null,"slug":"biel","establishment_type":null,"phone":"(21) 98410-2386","segments":["indie","pop"],"description":"DJ E PRODUTOR DA  @rookie.sp e @dopamina.sp","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/pvDKJJjE7ZZ30wj1vrtCg6Pz0M4W905Ve0p8wA7h.png","background":"productions/aEHLEKHf49LiR9QQa1hqrBnLMPFJpw2RnYQ4nnSW.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biel.prod/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-03T00:17:06.000000Z","updated_at":"2024-08-03T00:17:07.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-04 00:31:47] local.INFO: Slug fornecido: {"slug":"get-company-info"} 
+[2024-08-04 00:31:47] local.ERROR: Erro ao carregar informações da produção: {"exception":"[object] (Illuminate\\Database\\Eloquent\\ModelNotFoundException(code: 0): No query results for model [App\\Models\\Production]. at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php:598)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\app\\Http\\Controllers\\ProductionController.php(243): Illuminate\\Database\\Eloquent\\Builder->firstOrFail()
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ProductionController->view('get-company-inf...')
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('view', Array)
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ProductionController), 'view')
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(92): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 {main}
+"} 
+[2024-08-04 00:31:49] local.INFO: Slug fornecido: {"slug":"get-company-info"} 
+[2024-08-04 00:31:49] local.ERROR: Erro ao carregar informações da produção: {"exception":"[object] (Illuminate\\Database\\Eloquent\\ModelNotFoundException(code: 0): No query results for model [App\\Models\\Production]. at C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php:598)
+[stacktrace]
+#0 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\app\\Http\\Controllers\\ProductionController.php(243): Illuminate\\Database\\Eloquent\\Builder->firstOrFail()
+#1 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ProductionController->view('get-company-inf...')
+#2 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('view', Array)
+#3 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ProductionController), 'view')
+#4 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#5 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#6 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(126): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(92): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequest(Object(Illuminate\\Http\\Request), Object(Closure), Array)
+#11 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php(54): Illuminate\\Routing\\Middleware\\ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate\\Http\\Request), Object(Closure), 'api', Object(Closure))
+#12 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\ThrottleRequests->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#13 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#35 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#36 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#37 C:\\Development\\xamp\\htdocs\\cutinapp1.1\\Api\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#38 {main}
+"} 
+[2024-08-04 00:35:05] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-04 00:35:05] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-04 00:35:05] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-04 00:35:05] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+>>>>>>> 93d154dd00052a33a5882176362bc3fba9bfd0ac

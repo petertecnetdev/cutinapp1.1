@@ -8,3 +8,4 @@
 
 /.github export-ignore
 CHANGELOG.md export-ignore
+Api/storage/logs/laravel.log -text
