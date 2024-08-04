@@ -108,7 +108,7 @@ const EventViewPage = () => {
                         )}</strong>`}
                   </p>
                 </span>
-                <strong>
+                <p className="labeltitle h6 text-warning text-center text-danger">
                     {" "}
                     <a
                       href={eventData.event.location}
@@ -116,13 +116,14 @@ const EventViewPage = () => {
                       rel="noopener noreferrer"
                       style={{ cursor: "pointer", textDecoration: "none" }}
                     >
-                      <i className="bi bi-geo-alt btn btn-outline-light text-white m-2"></i>
+                      <i className="bi h4 bi-geo-alt btn text-white m-2"></i>
                       {eventData.event.establishment_name}
                     </a>
-                  </strong>
-                  {eventData.event.address},{eventData.event.city} -{" "}
+                    {" "} {eventData.event.address},{eventData.event.city} -{" "}
                   {eventData.event.uf}
                   {eventData.event.cep}
+                  
+                  </p>
               </Card.Body>
             </Card>
             <div

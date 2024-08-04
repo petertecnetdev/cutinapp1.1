@@ -349,9 +349,11 @@ const EventCreatePage = () => {
                       <option value="Boliche">Boliche</option>
                       <option value="Sinuca">Sinuca</option>
                       <option value="Karaoke">Karaoke</option>
+                      <option value="Secreto">Secreto</option>
                     </Form.Control>
                   </Form.Group>
                 </Col>
+
                 <Col md={12}>
                   <Form.Group controlId="formEstablishment_name">
                     <Form.Control
@@ -359,7 +361,7 @@ const EventCreatePage = () => {
                       name="establishment_name"
                       placeholder="Nome do estabelecimento"
                       value={formData.establishment_name}
-                      onChange={handleCepChange}
+                      onChange={handleInputChange}
                       className="m-2"
                       required
                     />
@@ -405,7 +407,7 @@ const EventCreatePage = () => {
                     />
                   </Form.Group>
                 </Col>
-                <Col md={8}>
+                <Col md={12}>
                   <Form.Group controlId="formCity">
                     <Form.Control
                       type="text"
@@ -418,7 +420,7 @@ const EventCreatePage = () => {
                     />
                   </Form.Group>
                 </Col>
-                <Col md={4}>
+                <Col md={12}>
                   <Form.Group controlId="formUf">
                     <Form.Control
                       as="select"
@@ -502,7 +504,7 @@ const EventCreatePage = () => {
               </Button>
               </Card>
             </Col>
-            <Link to={`/productions/${productionId}`}>
+            <Link to={`/productions/update/${productionId}`}>
         <Button variant="secondary">Voltar para Produção</Button>
       </Link>
         </Row>
