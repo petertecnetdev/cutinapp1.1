@@ -345,10 +345,10 @@ class UserController extends Controller
             }
     
             // Buscar o usuário pelo user_name
-            $userToShow = User::with('productions')
-            ->where('user_name', $userName)
-            ->first();
-
+            $userToShow = User::with(['productions' => function ($query) {
+                $query->orderBy('created_at', 'desc');
+            }])->where('user_name', $userName)->first();
+            
 
             // Verificar se o usuário foi encontrado
             if (!$userToShow) {
