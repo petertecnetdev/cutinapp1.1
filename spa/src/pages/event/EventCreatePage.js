@@ -359,7 +359,7 @@ const EventCreatePage = () => {
                       name="establishment_name"
                       placeholder="Nome do estabelecimento"
                       value={formData.establishment_name}
-                      onChange={handleCepChange}
+                      onChange={handleInputChange}
                       className="m-2"
                       required
                     />
