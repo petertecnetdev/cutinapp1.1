@@ -6021,3 +6021,591 @@ Siga seus produtores favoritos e receba notificações sobre novos eventos e pro
 
 A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
 >>>>>>> 93d154dd00052a33a5882176362bc3fba9bfd0ac
+[2024-08-05 00:50:46] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-05 00:50:46] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-05 00:50:47] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-05 00:50:47] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-05 01:03:19] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-05 01:03:19] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-05 01:03:19] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-05 01:03:19] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:30:38] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:30:38] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:30:38] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:30:38] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:35:44] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:35:44] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:35:44] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:35:44] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:38:42] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:38:42] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:38:42] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:38:42] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:44:47] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:44:47] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:44:48] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:44:48] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:47:40] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:47:40] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 
+[2024-08-06 23:47:40] local.INFO: Slug fornecido: {"slug":"birosca-2"} 
+[2024-08-06 23:47:40] local.INFO: Produção encontrada: {"production":{"App\\Models\\Production":{"id":14,"name":"Birosca","fantasy":null,"cnpj":"51.420.139/0001-25","type":null,"slug":"birosca-2","establishment_type":null,"phone":"(61) 98257-1111","segments":["pop","dance","hiphop","electronic","fuleragem","funk","lgbt"],"description":"Birosca é um vibrante e eclético espaço noturno localizado no coração de Brasília, no Setor de Diversões Sul, epicentro da cultura underground e alternativa da Capital. Originalmente concebida como uma casa noturna e espaço para festas, a Birosca se reinventou durante a pandemia, transformando-se em um bar com DJs que mantém a energia da noite viva até altas horas da madrugada. Com uma programação diversificada, as sextas-feiras são dedicadas aos ritmos pulsantes da música eletrônica, enquanto os sábados ganham vida com os sons contagiantes do pop e funk. Na Birosca, cada noite é uma celebração única, onde a música, a cultura e a comunidade se encontram para criar experiências memoráveis.","location":null,"cep":null,"address":"undefined - undefined","city":null,"uf":null,"country":null,"logo":"productions/15BQdOR2aHZPDdvKOH3BEVbleMVAZqHHOLOOUCU1.png","background":"productions/NpflBxwQOEMTwkMp1RhlpRpo9cjcr8EmUJFxnZ3K.png","capacity":null,"user_id":3,"start_date":null,"end_date":null,"is_featured":0,"contact_email":null,"contact_phone":null,"is_published":0,"is_approved":0,"ticket_price_min":"0.00","ticket_price_max":"0.00","total_tickets_sold":0,"total_tickets_available":0,"is_cancelled":0,"additional_info":null,"facebook_url":null,"website_url":null,"twitter_url":null,"instagram_url":"https://www.instagram.com/biroscadoconic/","youtube_url":null,"other_information":null,"images":null,"created_at":"2024-08-04T00:34:43.000000Z","updated_at":"2024-08-04T00:34:45.000000Z","user":{"id":3,"first_name":"Cutinapp","user_name":"cutinapp-Rusc","last_name":null,"verification_code":null,"reset_password_code":null,"reset_password_expires_at":null,"avatar":"users/3/avatar/3-1722563229.png","email":"cutinapp@gmail.com","email_verified_at":"2024-08-01T00:10:32.000000Z","created_at":"2024-08-01T00:09:40.000000Z","updated_at":"2024-08-02T01:47:12.000000Z","cpf":null,"address":null,"phone":null,"city":null,"uf":null,"postal_code":null,"birthdate":null,"gender":null,"marital_status":null,"occupation":null,"about":"Bem-vindo ao Cutinapp!
+
+
+
+Este perfil foi criado pela equipe Cutinapp para dar início à nossa comunidade, cadastrando as primeiras produções e eventos. Nosso objetivo é proporcionar a melhor experiência possível para produtores de eventos e participantes, oferecendo uma plataforma completa e intuitiva para a divulgação e venda de ingressos de eventos.
+
+
+
+Sobre o Cutinapp:
+
+Cutinapp é um aplicativo inovador para gerenciamento de eventos, onde produtores podem divulgar seus eventos e vender ingressos, enquanto participantes podem descobrir, seguir e comprar ingressos para eventos de seu interesse. Nossa missão é conectar pessoas através de experiências incríveis, facilitando a organização e participação em eventos.
+
+
+
+Produções e Eventos:
+
+As produções e eventos atualmente cadastrados neste perfil são exemplos iniciais criados pela equipe Cutinapp. Estes eventos demonstram as diversas funcionalidades da nossa plataforma e ajudam novos usuários a entenderem como tudo funciona. À medida que novos produtores se juntam ao Cutinapp, eles poderão criar seus próprios perfis e adicionar seus eventos de forma independente.
+
+
+
+Para Produtores de Eventos:
+
+
+
+Cadastre suas produções e eventos com facilidade.
+
+Utilize nossas ferramentas de marketing e divulgação para alcançar mais participantes.
+
+Gerencie suas vendas de ingressos e acompanhe o desempenho de seus eventos com nosso dashboard intuitivo.
+
+Para Participantes:
+
+
+
+Descubra eventos incríveis próximos a você ou em qualquer lugar do mundo.
+
+Compre ingressos de forma rápida e segura diretamente pelo aplicativo.
+
+Siga seus produtores favoritos e receba notificações sobre novos eventos e promoções.
+
+A equipe Cutinapp está sempre à disposição para ajudar e ouvir seu feedback. Junte-se a nós e faça parte desta comunidade que conecta pessoas através de experiências únicas!","favorite_artist":null,"favorite_genre":null,"payment_method":null,"newsletter_subscription":1,"ticket_purchases":null,"account_balance":null,"is_producer":null,"is_participant":null,"is_promoter":null,"is_partner":null,"is_ticket_seller":null,"extra_info":null,"profile_id":1}}}} 

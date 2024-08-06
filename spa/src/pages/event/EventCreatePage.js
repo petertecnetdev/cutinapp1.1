@@ -349,11 +349,12 @@ const EventCreatePage = () => {
                       <option value="Boliche">Boliche</option>
                       <option value="Sinuca">Sinuca</option>
                       <option value="Karaoke">Karaoke</option>
+                      <option value="Chácara">Chácara</option>
                       <option value="Secreto">Secreto</option>
+                      <option value="Outro">Outro</option>
                     </Form.Control>
                   </Form.Group>
                 </Col>
-
                 <Col md={12}>
                   <Form.Group controlId="formEstablishment_name">
                     <Form.Control
@@ -504,7 +505,7 @@ const EventCreatePage = () => {
               </Button>
               </Card>
             </Col>
-            <Link to={`/productions/update/${productionId}`}>
+            <Link to={`/productions/${productionId}`}>
         <Button variant="secondary">Voltar para Produção</Button>
       </Link>
         </Row>
