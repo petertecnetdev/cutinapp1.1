@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{AuthController, UserController, ProfileController,
-     ProductionController, EventController};
+     ProductionController, EventController, TicketController};
 
 Route::group([
     'middleware' => 'api',
@@ -74,3 +74,16 @@ Route::group([
     Route::get('/myevents/list', [EventController::class, 'myEvents'])->name('event.myevents'); 
 });
 
+Route::group([
+    'middleware' => 'api',
+    'prefix' => 'ticket'
+], function ($router) {
+    Route::post('/', [TicketController::class, 'store'])->name('ticket.store');
+    Route::get('/', [TicketController::class, 'list'])->name('ticket.list');
+    Route::get('/show/{id}', [TicketController::class, 'show'])->name('ticket.show');
+    Route::post('/{id}', [TicketController::class, 'update'])->name('ticket.update');
+    Route::delete('/{id}', [TicketController::class, 'delete'])->name('ticket.delete');
+    Route::get('/event/{eventId}', [TicketController::class, 'listByEvent'])->name('ticket.listByEvent');
+    Route::get('/user', [TicketController::class, 'listByUser'])->name('ticket.listByUser');
+    Route::get('/production/{productionId}', [TicketController::class, 'listByProduction'])->name('ticket.listByProduction');
+});
